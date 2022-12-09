@@ -11,6 +11,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { FormsModule } from '@angular/forms';
 import { HighlighterDirective } from './highlighter.directive';
+import { DropdownDirective } from './dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HighlighterDirective } from './highlighter.directive';
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    HighlighterDirective
+    HighlighterDirective,
+    DropdownDirective
   ],
   imports: [
     FormsModule,
